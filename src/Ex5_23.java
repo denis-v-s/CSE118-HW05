@@ -17,7 +17,8 @@ public class Ex5_23 {
       descendingSum += 1.0 / i;
     } // 9.09450885298443
 
-    System.out.println(ascendingSum);
-    System.out.println(descendingSum);
+    System.out.println("from larger number to smaller number = " + ascendingSum);
+    System.out.println("from smaller number to larger number = " + descendingSum);
+    System.out.println("larger->smaller - smaller->larger = " + (ascendingSum - descendingSum));
   }
 }
